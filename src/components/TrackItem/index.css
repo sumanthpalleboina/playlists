@@ -1,0 +1,48 @@
+.item {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.track-image {
+  height: 100px;
+  width: 15%;
+  margin-right: 20px;
+}
+.info-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+}
+.name {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+.genre {
+  color: #3b82f6;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+.time-delete-container {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.duration {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 30px;
+}
+.btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
